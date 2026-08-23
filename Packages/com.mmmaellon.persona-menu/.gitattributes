@@ -1,0 +1,100 @@
+* filter= diff= merge= text=auto
+
+*.fbx -text
+*.FBX -text
+*.xcf -text
+*.XCF -text
+*.png -text
+*.PNG -text
+*.jpg -text
+*.JPG -text
+*.gltf -text
+*.GLTF -text
+
+*.obj -text
+*.OBJ -text
+*.blend -text
+*.BLEND -text
+*.dae -text
+*.DAE -text
+*.3ds -text
+*.3DS -text
+*.glb -text
+*.GLB -text
+*.ma -text
+*.MA -text
+*.mb -text
+*.MB -text
+*.max -text
+*.MAX -text
+*.anim -text
+*.ANIM -text
+
+*.jpeg -text
+*.JPEG -text
+*.tga -text
+*.TGA -text
+*.psd -text
+*.PSD -text
+*.tif -text
+*.TIF -text
+*.tiff -text
+*.TIFF -text
+*.hdr -text
+*.HDR -text
+*.exr -text
+*.EXR -text
+*.bmp -text
+*.BMP -text
+*.webp -text
+*.WEBP -text
+*.svg -text
+*.SVG -text
+
+*.wav -text
+*.WAV -text
+*.mp3 -text
+*.MP3 -text
+*.ogg -text
+*.OGG -text
+*.flac -text
+*.FLAC -text
+*.aif -text
+*.AIF -text
+*.aiff -text
+*.AIFF -text
+
+
+*.mp4 -text
+*.MP4 -text
+*.mov -text
+*.MOV -text
+*.avi -text
+*.AVI -text
+*.webm -text
+*.WEBM -text
+
+*.unitypackage -text
+*.UNITYPACKAGE -text
+*.asset -text
+*.ASSET -text
+*.prefab -text
+*.PREFAB -text
+*.unity -text
+*.UNITY -text
+*.cubemap -text
+*.CUBEMAP -text
+*.mat -text
+*.MAT -text
+
+*.dll -text
+*.DLL -text
+*.so -text
+*.SO -text
+*.zip -text
+*.ZIP -text
+*.7z -text
+*.7Z -text
+*.rar -text
+*.RAR -text
+

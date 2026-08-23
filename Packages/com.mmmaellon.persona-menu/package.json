@@ -1,0 +1,27 @@
+{
+    "name": "com.mmmaellon.persona-menu",
+    "displayName": "PersonaMenu",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "",
+    "url": "https://github.com/MMMaellon/persona-menu.git",
+    "dependencies": {
+        "com.unity.textmeshpro": "^3.0.0"
+    },
+    "gitDependencies": {},
+    "author": {
+        "name": "MMMaellon",
+        "email": "mmmaellon@gmail.com",
+        "url": "https://twitter.com/MMMaellon"
+    },
+    "vpmDependencies": {
+        "com.vrchat.worlds": "^3.5.2"
+    },
+    "samples": [
+        {
+            "displayName": "PersonaMenu Example Scene",
+            "description": "An example scene showing off the capabilities of PersonaMenu.",
+            "path": "Samples~/Example"
+        }
+    ]
+}
