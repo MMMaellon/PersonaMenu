@@ -40,12 +40,11 @@ namespace MMMaellon.PersonaMenu
         public void Loop()
         {
             SendCustomEventDelayedFrames(nameof(Loop), 0, VRC.Udon.Common.Enums.EventTiming.LateUpdate);
-            // Debug.LogWarning("asdf");
-            if (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Tab))
             {
                 ToggleMenu();
             }
-            else if (MenuVisible && Vector3.ProjectOnPlane(transform.position - localPlayer.GetPosition(), Vector3.up).magnitude > despawnDistance)
+            else if (MenuVisible && Vector3.ProjectOnPlane(pickup.transform.position - localPlayer.GetPosition(), Vector3.up).magnitude > despawnDistance)
             {
                 ToggleOffMenu();
             }
